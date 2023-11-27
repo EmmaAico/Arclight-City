@@ -2,34 +2,34 @@
 	"CrewTip": {
 		"tip1": {
 			"eng": "Looks like one or more of your mercenary is low level, you should level them up to match your level using ${item1} and ${item2}",
-			"trans": "看起來你的佣兵中有一個或多個等級較低，你應該使用${item1}和${item2}來提升他們的等級，以達到與你相同的等級。"
+			"trans": "Parece que um ou mais dos seus mercenários são de nível baixo. Você deve aumentá-los para corresponder ao seu nível usando ${item1} e ${item2"
 		}
 	},
 	"MercenaryDrawType": {
 		"ELITE": {
 			"description": {
 				"eng": "More experienced pro mercs hang out here",
-				"trans": "更有經驗的職業傭兵聚集在這裡"
+				"trans": "Mercenários profissionais mais experientes ficam aqui"
 			},
 			"title": {
 				"eng": "Inner tables",
-				"trans": "內部表格"
+				"trans": "Mesas internas"
 			}
 		},
 		"NORMAL": {
 			"description": {
 				"eng": "Usually amateur mercs hang out here",
-				"trans": "通常業餘傭兵會在這裡聚集"
+				"trans": "Geralmente mercenários amadores ficam aqui"
 			},
 			"title": {
 				"eng": "Bar table",
-				"trans": "酒吧桌"
+				"trans": "mesa de bar"
 			}
 		},
 		"RARE": {
 			"description": {
 				"eng": "Professional mercs likes discuss about their gig here",
-				"trans": "職業傭兵喜歡在這裡討論他們的任務。"
+				"trans": "Mercenários profissionais gostam de discutir sobre seu show aqui"
 			},
 			"title": {
 				"eng": "Sofa tables",
@@ -53,13 +53,13 @@
 		"others": {
 			"title": {
 				"eng": "Others",
-				"trans": "其他"
+				"trans": "Outros"
 			}
 		},
 		"upgrades": {
 			"title": {
 				"eng": "Upgrade Materials",
-				"trans": "升級材料"
+				"trans": "Melhorias De Matérias"
 			}
 		}
 	},
@@ -67,108 +67,108 @@
 		"attack": {
 			"description": {
 				"eng": "Attacks the enemy for ${amount} health points",
-				"trans": "對敵人造成${amount}生命點數的攻擊"
+				"trans": "Ataca o inimigo ganhando ${amount} pontos de saúde"
 			},
 			"triggered": {
 				"eng": "${playerName} Attacked for ${amount} damage",
-				"trans": "${playerName}造成${amount}傷害"
+				"trans": "${playerName} Atacado Por ${amount}傷害"
 			}
 		},
 		"attack_group": {
 			"description": {
 				"eng": "Attacks the enemy for ${amount}",
-				"trans": "對敵人造成${amount}點傷害"
+				"trans": "Atacou o inimigo por {amount}點傷害"
 			}
 		},
 		"burn": {
 			"description": {
 				"eng": "Burns targeted enemy for ${amount} damage for ${turns} turns",
-				"trans": "對目標敵人造成${amount}點傷害，持續${turns}回合"
+				"trans": "Queima o inimigo alvo, causando ${amount} de dano por ${turns} turnos"
 			},
 			"triggered": {
 				"eng": "${merc} burns ${enemy}, ${enemy} received ${damage} damage.",
-				"trans": "${merc}燃燒了${enemy}，${enemy}受到了${damage}的傷害。"
+				"trans": "${merc} queima ${enemy}, ${enemy} recebeu ${damage} de dano."
 			}
 		},
 		"burnGroup": {
 			"description": {
 				"eng": "Burns all enemies for ${amount} damage for ${turns} turns",
-				"trans": "對所有敵人造成${amount}點傷害，持續${turns}回合"
+				"trans": "Queima todos os inimigos, causando ${amount} de dano por ${turns} turnos"
 			},
 			"triggered": {
 				"eng": "${merc} burns all enemies, dealt ${damage} damage each",
-				"trans": "${merc}燃燒所有敵人，每個敵人受到${damage}的傷害"
+				"trans": "${merc} queima todos os inimigos, causando ${damage} de dano cada"
 			}
 		},
 		"heal": {
 			"description": {
 				"eng": "Heals your character for ${amount} health point",
-				"trans": "治療你的角色${amount}生命值"
+				"trans": "Cura seu personagem em ${amount} pontos de saúde"
 			},
 			"triggered": {
 				"eng": "${merc} Healed ${playerName} for ${amount} health",
-				"trans": "${merc}為${playerName}恢復了${amount}點生命值"
+				"trans": "${merc} curou ${playerName} em ${amount} saúde"
 			}
 		},
 		"healGroup": {
 			"description": {
 				"eng": "Heals your team for ${amount} health",
-				"trans": "治療您的團隊${amount}點生命值"
+				"trans": "Cura sua equipe em ${amount} saúde"
 			},
 			"triggered": {
 				"eng": "${merc} healed the team for ${amount} health",
-				"trans": "${merc}為團隊恢復了${amount}點生命值"
+				"trans": "${merc} curou a equipe em ${amount} saúde"
 			}
 		},
 		"poison": {
 			"description": {
 				"eng": "Poisons the enemy for ${amount} for ${turn} turns",
-				"trans": "對敵人施加毒素，持續${turn}回合，每回合造成${amount}傷害"
+				"trans": "Envenena o inimigo por ${amount} por ${turn} turnos"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned ${enemy}, ${enemy} received ${damage} damage.",
-				"trans": "${merc}毒害了${enemy}，${enemy}受到了${damage}的傷害。"
+				"trans": "${merc} envenenou ${enemy}, ${enemy} recebeu ${damage} de dano."
 			}
 		},
 		"poisonGroup": {
 			"description": {
 				"eng": "Poisons all enemies for ${amount} for ${turns} turns",
-				"trans": "對所有敵人施加${amount}的毒素，持續${turns}回合"
+				"trans": "Envenena todos os inimigos por ${amount} por ${turns} turnos"
 			},
 			"triggered": {
 				"eng": "${merc} poisoned all enemies, dealt ${damage} damage each.",
-				"trans": "${merc} 毒害了所有敵人，${enemy} 受到了 ${damage} 點傷害。"
+				"trans": "${merc} envenenou todos os inimigos, causando ${damage} de dano a cada um."
 			}
 		},
 		"shield": {
 			"description": {
 				"eng": "Recharge your character's shield for ${amount}",
-				"trans": "為您的角色充能${amount}的護盾"
+				"trans": "Recarregue o escudo do seu personagem por ${amount}"
 			},
 			"triggered": {
 				"eng": "${merc} shielded ${playerName} for ${amount} health",
-				"trans": "${merc}為${playerName}提供了${amount}點生命護盾"
+				"trans": "${merc} recuperou a proteção do ${playerName} por ${amount} saúde"
 			}
 		},
 		"shieldGroup": {
 			"description": {
 				"eng": "Shields your team for ${amount} health",
-				"trans": "為您的隊伍護盾增加${amount}生命值"
+				"trans": "Recupera a Proteção da sua equipe com ${amount} de saúde"
 			},
 			"triggered": {
 				"eng": "${merc} shields the team for ${amount}",
-				"trans": "${merc}為隊伍提供${amount}的護盾"
-			}
+				"trans": "${merc} Dar Proteção a equipe por ${amount"
+
 		}
 	},
 	"abilityTag": {
 		"damageOverTime": {
 			"eng": "Damage Over Time",
-			"trans": "傷害隨時間推移"
+			"trans": "Dano ao longo  tempo"
 		},
 		"damageOverTimeDescription": {
 			"eng": "This ability will deal damage over time, this kind of ability usually has less damage than one-strike abilities, however, it deals more damage in total over time.",
-			"trans": "這個能力會隨著時間造成傷害，這種能力通常傷害比一次性能力低，但是總體而言隨著時間會造成更多傷害。"
+			"trans": "Essa habilidade causará dano ao longo do tempo, esse tipo de habilidade geralmente causa menos dano do que habilidades de um golpe, porém causa mais dano no total ao longo do tempo."
 		},
 		"groupTargetAlly": {
 			"eng": "Group Target",
@@ -176,44 +176,44 @@
 		},
 		"groupTargetAllyDescription": {
 			"eng": "This ability is multi-target and will target all alive allies, this kind of ability is usually weaker than single target abilities however, it would be more effective against multiple allies.",
-			"trans": "這個能力可以對多個目標使用，並會針對所有存活的盟友，這種能力通常比單一目標的能力弱，但對多個盟友來說更有效。"
+			"trans": "Esta habilidade tem vários alvos e terá como alvo todos os aliados vivos. Esse tipo de habilidade é geralmente mais fraco do que habilidades de alvo único, no entanto, seria mais eficaz contra vários aliados."
 		},
 		"groupTargetEnemy": {
 			"eng": "Group Target",
-			"trans": "團隊目標"
+			"trans": "Alvo Do grupo"
 		},
 		"groupTargetEnemyDescription": {
 			"eng": "This ability is multi-target and will target all alive enemies, this kind of ability is usually weaker than single target abilities however, it would be more effective against multiple enemies.",
-			"trans": "這個能力可以對多個目標造成傷害，通常比單一目標能力較弱，但對付多個敵人時會更有效。"
+			"trans": "Esta habilidade é multi-alvo e terá como alvo todos os inimigos vivos. Este tipo de habilidade é geralmente mais fraca do que habilidades de alvo único, no entanto, seria mais eficaz contra vários inimigos."
 		},
 		"singleTargetAlly": {
-			"eng": "Single Target",
-			"trans": "單一目標"
+			"eng": "Single Target"
+			"trans": "Alvo Unico"
 		},
 		"singleTargetAllyDescription": {
 			"eng": "This ability is single target and will target yourself but not your allies.",
-			"trans": "這個能力只能針對單一目標，並且會以自己為目標，而不是盟友。"
+			"trans": "Esta habilidade tem alvo único e terá como alvo você, mas não seus aliados."
 		},
 		"singleTargetEnemy": {
 			"eng": "Single Target",
-			"trans": "單一目標"
+			"trans": "Alvo Solo"
 		},
 		"singleTargetEnemyDescription": {
 			"eng": "This ability is single target and will target one enemy, this kind of ability is usually stronger than multi-target abilities however, it would be less effective against multiple enemies.",
-			"trans": "這個能力是單一目標的，會對一個敵人使用，這種能力通常比多目標能力更強大，但對抗多個敵人時效果會較弱。"
+			"trans": "Esta habilidade tem alvo único e terá como alvo um inimigo. Esse tipo de habilidade geralmente é mais forte do que habilidades com vários alvos, no entanto, seria menos eficaz contra vários inimigos."
 		}
 	},
 	"apartment": {
 		"apartment0": {
 			"displayName": {
 				"eng": "Slum Apartment",
-				"trans": "貧民窟蟻居"
+				"trans": "Apartamento na favela"
 			}
 		},
 		"apartment1": {
 			"displayName": {
 				"eng": "Low-end Apartment",
-				"trans": "廉價雅房"
+				"trans": "Apartamento de baixa renda"
 			}
 		},
 		"apartment2": {
